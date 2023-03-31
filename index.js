@@ -1,2 +1,6 @@
-alert("world");
-console.log('查看脚本是否注入成功')
+
+
+for(var i = 0;i<3;i++){
+  document.querySelector(".QuestionButtonGroup button").click();
+  window.close()
+}

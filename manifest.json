@@ -1,14 +1,22 @@
 {
-    "manifest_version": 2,
-    "name": "My Chrome Extention",
-    "version": "1.0",
-    "description": "Where I learn Chrome Extention",
-    "permissions": ["activeTab","declarativeContent","storage"],
-    "background": {
-        "scripts": ["background.js"],
-        "persistent": false
-    },
-    "browser_action": {
-        "default_icon": "images/icon19.png"
+  "manifest_version": 2,
+  "name": "My Chrome Extention",
+  "version": "1.0",
+  "description": "Where I learn Chrome Extention",
+  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": "images/icon19.png",
+    "default_title": "stock helper",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content-script.js"]
     }
+  ]
 }

@@ -1,14 +1,14 @@
 ```
 root
-©¦ background.js # chrome ä¯ÀÀÆ÷¼ÓÔØÍê²å¼şºóÖ´ĞĞÕâ¸öÎÄ¼ş
-©¦ index.js # background.js ¼àÌıµã»÷Í¼±êÊÂ¼ş, È»ºó»áµ÷ÓÃÕâÀï
-©¦ main.css # popup.htmlµÄÑùÊ½
-©¦ main.js # popup.htmlµÄjsÎÄ¼ş
-©¦ manifest.json # ÅäÖÃÎÄ¼ş
-©¦ popup.html # µã»÷Í¼±êºóµ¯³öµÄÒ³Ãæ
-©¦ readme.md # ±¾ÅäÖÃÎÄ¼ş
+ï¿½ï¿½ background.js # chrome ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½
+ï¿½ï¿½ index.js # background.js ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¼ï¿½ï¿½ï¿½Â¼ï¿½, È»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ main.css # popup.htmlï¿½ï¿½ï¿½ï¿½Ê½
+ï¿½ï¿½ main.js # popup.htmlï¿½ï¿½jsï¿½Ä¼ï¿½
+ï¿½ï¿½ manifest.json # ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½
+ï¿½ï¿½ popup.html # ï¿½ï¿½ï¿½Í¼ï¿½ï¿½óµ¯³ï¿½ï¿½ï¿½Ò³ï¿½ï¿½
+ï¿½ï¿½ readme.md # ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½
 
-©¸©¤images
+ï¿½ï¿½ï¿½ï¿½images
  icon128.png
  icon16.png
  icon19.png
@@ -16,5 +16,5 @@ root
  icon48.png
 ```
 
-        "default_title": "stock helper",
-        "default_popup": "popup.html" # Ğ´ÁËÕâ¸öÎÄ¼ş¸úbackground.js»á³åÍ»          
+"default_title": "stock helper",
+"default_popup": "popup.html"        

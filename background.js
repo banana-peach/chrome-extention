@@ -13,3 +13,5 @@ function toPopup() {
   alert('我是被popup.js调用的函数!');
 }
 
+// backgound 有自己单独的调试页面
+// 这里不可以console.log() // 最好用alert

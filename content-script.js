@@ -21,3 +21,17 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   sendResponse('我收到了你的情书，popup~')
 })
 
+// react input框直接赋值不起作用，如此操作
+// inputDom input输入框
+// newText 新的数值
+function changeReactInputValue(inputDom, newText) {
+  let lastValue = inputDom.value;
+  inputDom.value = newText;
+  let event = new Event('input', { bubbles: true });
+  event.simulated = true;
+  let tracker = inputDom._valueTracker;
+  if (tracker) {
+    tracker.setValue(lastValue);
+  }
+  inputDom.dispatchEvent(event);
+}

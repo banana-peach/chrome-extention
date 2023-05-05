@@ -1,5 +1,9 @@
 // 监听插件图标点击事件
 // chrome.browserAction.onClicked.addListener(
+    // 想要点击可用, 必须加上这个, 在配置文件那里
+    //"browser_action": {
+    //    "default_icon": "qz.png"
+    // }
 //   () => {
 //     chrome.tabs.executeScript({file: 'index.js',}
 //   );

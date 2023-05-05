@@ -1,6 +1,10 @@
 // document.body.style.opacity = "0.5"
+//大部分api在这里不要用
 
 // Chrome提供的大部分API是不支持在content_scripts中运行
+// Chrome提供的大部分API是不支持在content_scripts中运行
+// sendMessage onMessage 是可以使用
+
 // sendMessage onMessage 是可以使用, 发送消息后, popup.js可以接收到
 
 // 网页加载进来的时候才会执行一次
